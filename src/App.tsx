@@ -16,13 +16,13 @@ export function App() {
           Ignite Lab
         </Heading>
         <Text size="lg" className="text-gray-400 mt-1">
-          Faça login e comçe a  usar!
+          Faça login e comece a  usar!
         </Text>
       </header>
 
       <form className="flex flex-col items-stretch w-full max-w-sm mt-10 gap-4">
         <label htmlFor="email" className="flex flex-col gap-3">
-          <Text className="font-semibold">Enderço de e-mail</Text>
+          <Text className="font-semibold">Endereço de e-mail</Text>
           <TextInput.Root>
             <TextInput.Icon>
               <Envelope />
@@ -32,7 +32,7 @@ export function App() {
         </label>
 
         <label htmlFor="password" className="flex flex-col gap-3">
-          <Text className="font-semibold">Digie sua senha</Text>
+          <Text className="font-semibold">Digite sua senha</Text>
           <TextInput.Root>
             <TextInput.Icon>
               <Lock />
